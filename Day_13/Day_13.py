@@ -1,10 +1,9 @@
 # Student dictionary
 student = {
-    "name": "Anu",
+    "name": "Kaviya",
     "age": 20,
     "grade": "A"
 }
-
 # Display original dictionary
 print("Original dictionary:")
 print(student)
