@@ -1,0 +1,4 @@
+Name: Divi
+Department: Data Science
+About: Learning Python easily!
+Goal: Becoming a Python expert!
