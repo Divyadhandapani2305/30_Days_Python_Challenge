@@ -1,0 +1,21 @@
+file = open("student.txt", "w")
+file.write("Name: Priya\n")
+file.write("Age: 20\n")
+file.write("Course: BSc Data Science\n")
+file.close()
+print("Data written successfully")
+
+file = open("student.txt", "r")
+data = file.read()
+print(data)
+file.close()
+
+file = open("student.txt", "a")
+file.write("City: Coimbatore\n")
+file.close()
+print("New data added successfully")
+
+file = open("student.txt", "r")
+data = file.read()
+print(data)
+file.close()
